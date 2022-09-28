@@ -1,2 +1,7 @@
-# Portfolio-LBae
-Portfolio of Lindsay Bae
+#Portfolio of Lindsay Bae
+
+##What I did:
+
+#Webpage Link
+
+#Screenshot
