@@ -1,4 +1,6 @@
+/* Font family import URL */
 @import url('https://fonts.googleapis.com/css2?family=Baumans&family=Gruppo&family=Poiret+One&family=Space+Grotesk:wght@300;500&display=swap');/* color scheme sourced from http://khroma.co/generator/ */
+
 :root {
     --killarney: #396c4c;
     --sandwisp: #f4e3a5;
@@ -7,10 +9,37 @@
     /* background-color: #A1CCAD; */
 }
 
-body, html {
+/* body, html {
     height: 100%;
     background-color: #fbecd0
     /* font-family:'Space Grotesk', sans-serif; */
+
+html {
+    display: flex;
+    justify-content: center;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    margin-left: 40px;
+    background-color:#F4EBD4;
+}
+
+body {
+    color: black;
+    font-family: 'Gruppo', cursive;
+    font-size: x-large;
+}
+
+/* Header font sizes */
+h1 {
+    font-size: 4rem;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+h3 {
+    font-size: 2rem;
 }
 
 /* The sidebar menu */
@@ -27,7 +56,7 @@ ul {
     z-index: 1; 
     top: 0; 
     left: 0;
-    background-color: #fba92c;
+    background-color:  #4b9b69;
     overflow-x: hidden; 
     padding-top: 20px;
 }
@@ -37,7 +66,7 @@ ul {
     text-decoration: none;
     font-size: 30px;
     font-family: 'Gruppo', cursive;
-    color: #000000;
+    color: #1a1d21;
     display: block;
 }
 
@@ -48,10 +77,14 @@ ul {
 
 #nav {
     text-align: center;
+    margin-top: 1rem;
 }
 
 #nav li {
     display: inline;
+    font-weight: 800;
+    line-height: 1.5;
+    font-size: 1rem;  
 }
 
 #nav a {
@@ -68,6 +101,7 @@ ul {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+    margin-top: 18rem;
 }
 
 /* body {
@@ -80,6 +114,33 @@ ul {
     padding: 0px 10px;
 }
 
+.nameplate {
+    margin-top: 20rem;
+    color: #212529;
+    font-family: 'Space Grotesk', sans-serif;
+    line-height: 1.3px;
+}
+
+.lastname {
+    color:#4b9b69;
+}
+
+.subheading {
+    font-family: 'Gruppo', cursive;
+    font-size: medium;
+    margin-top: 0px;
+    font-weight: bold;
+    margin-left: 5.7rem;
+}
+
+/* #part-one {
+    background-color: #fba92c;
+    margin-top: 1rem;
+    border-radius: .5rem;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    border: .3rem solid #fff;
+} */
 /* grid container test */
 /* 
 .container {
@@ -155,4 +216,3 @@ ul {
     height: 100vh;
     }
 } */
-
