@@ -13,51 +13,56 @@
 <body id="top-page">
 
     <!-- side navigation-->
-    <nav class="sidenav">
-        <img src="images/IMG_1139.jpeg" alt="family dog potato" class="avatar">
-        <ul id="nav">
-            <li><a href="#">About</a></li>
-            <li><a href="#">Education</a></li>
-            <li><a href="#">My Work</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
+    <nav id="sidenav">
+        <a class="navbar" href="#top-page">
+            <span>
+                <img src="images/IMG_1139.jpeg" alt="family dog potato" class="avatar">
+            </span>
+                <ul class="nav">
+                    <li><a href="#part-one">About</a></li>
+                    <li><a href="#part-two">Education</a></li>
+                    <li><a href="#part-three">My Work</a></li>
+                    <li><a href="#part-four">Contact</a></li>
+                </ul>
+        </a>    
     </nav>
 
     <!-- main content -->
 
-    <main class="wrapper">
-
+    <!-- <main class="wrapper"> -->
+    <div class="container-fluid">
         <!-- home section -->
-        <div id="part-one" class="nameplate">
+        <section class="nameplate" id="part-one">
             <h1>LINDSAY 
                 <span class="lastname">BAE</span>
             </h1> 
             <div class="subheading">
                 WEB DEVELOPER | COSMETOLOGIST
             </div>
-        </div>
-
-
+            <hr class="solid">
+        </section>
+        
         <!-- about me -->
-        <div id="part-two">
+        <section class="its-always-about-me" id="part-two">
             <h3>ABOUT</h3>
             <div class="me">
                 <section id="about_me">
                     <h5>Hello there, I'm Lindsay.</h5>
-                    <p>
-                        "I am "
-                    </p>
+                    <h5>
+                        I am but a humble neophyte to web development, however I have an insatiable appetite for knowledge.
+                    </h5>
                 </section>
             </div>
-        </div>
+            <hr class="solid">
+        </section>
         
 
 
-        <!-- my work -->
-        <div id="part-three">
-            <h3>PROJECTS</h3>
+        <!-- my grind -->
+        <section id="part-three">
+            <h3>MY ENDEAVORS</h3>
             <div class="work">
-                <section id="my-projects">
+                <section id="my-grind">
                     <a href="https://baelindsay.github.io/Generator-of-Password/" target="_blank" class="password">
                         <h3>Generator of Passwords</h3>
                     </a>
@@ -69,20 +74,15 @@
                     </a>
                 </section>
             </div>
-        </div>
+            <hr class="solid">
+        </section>
         
 
         <!-- contact section-->
-        <div id="part-four">
+        <section id="part-four">
             <h3>CONTACT</h3>
-        </div>
+        </section>
 
-
-        <!-- <div class="container-fluid p-0">
-            <section class="resume-section"
-        
-        </div> -->
-    </main>
-</div>
+    </div>
 </body>
 </html>
