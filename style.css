@@ -255,6 +255,7 @@ input[type=submit]:hover {
     width: 700px;
     position: relative;
     margin-left: 100px;
+    margin-bottom: 3rem;
 }
 
 label {
@@ -267,6 +268,22 @@ label {
 .text-label {
     text-align: right;
     margin-right: 12px;
+}
+
+.callme-beepme-ifyouwannareachme {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.callme-beepme-ifyouwannareachme ul {
+    padding: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.callme-beepme-ifyouwannareachme a {
+    font-size: 2rem;
+    color: #265512;
 }
 
 @media screen and (max-width: 426px) {
