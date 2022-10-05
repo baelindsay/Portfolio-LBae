@@ -20,7 +20,7 @@ WHEN I resize the page or view the site on various screens and devices
 THEN I am presented with a responsive layout that adapts to my viewport
 
 ## Results
-1item I gained a clear understanding of CSS--- more specifically on grid-rows and columns. 
+I gained a clear understanding of CSS--- more specifically on grid-rows and columns. 
 
 # Webpage Link
 https://baelindsay.github.io/Portfolio-LBae/
