@@ -158,7 +158,7 @@ ul {
 
 hr.solid {
     border-top: 3px solid #bbb;
-  }
+}
 
 /* #part-one {
     background-color: #fba92c;
@@ -214,7 +214,48 @@ hr.solid {
     flex-wrap: wrap;
     transition: transform .2s;
 }  */
+/* Positioning and styling for image labels*/
 
+/* #portfolio h3 {
+    color: #0f065e;
+    background-color: rgba(255, 255, 255, 0.8);
+    line-height: 2;
+    text-align: center;
+    border-top: .3rem solid #fff;
+    border-right: .3rem solid #fff;
+    border-bottom: .3rem solid #fff;
+} */
+
+/* Positioning with grid images */
+.gallery-one {
+    width: 100%;
+    height: 100%;
+    outline: .3rem solid #fff;
+    grid-column: 2 / 6;
+    grid-row: 1 / 4;
+    background-image: url(../images/generator-of-passwords.gif);
+    background-size: cover;
+}
+
+.gallery-two {
+    width: 100%;
+    height: 100%;
+    outline: .3rem solid #fff;
+    grid-column: 2 / 4;
+    grid-row: 4 / 6;
+    background-image: url(../images/weath-dash.jpeg);
+    background-size: cover;
+}
+
+.gallery-three {
+    width: 100%;
+    height: 100%;
+    outline: .3rem solid #fff;
+    grid-column: 4 / 6;
+    grid-row: 4 / 6;
+    background-image: url(..images/Randamu.png);
+    background-size: cover;
+}
 /* #my-grind {
   /* grid-template-columns: repeat(5, 1fr); */
   /* grid-template-rows: repeat(5, 5vw); */
