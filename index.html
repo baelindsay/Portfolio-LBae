@@ -19,18 +19,18 @@
                 <img src="images/IMG_1139.jpeg" alt="family dog potato" class="avatar">
             </span>
                 <ul class="nav">
-                    <li><a href="#part-one">About</a></li>
-                    <li><a href="#part-two">Education</a></li>
-                    <li><a href="#part-three">My Work</a></li>
-                    <li><a href="#part-four">Contact</a></li>
+                    <!-- <li><a href="#part-one">Home</a></li> -->
+                    <li><a href="#part-two">About</a></li>
+                    <li><a href="#part-three">Education</a></li>
+                    <li><a href="#part-four">My Work</a></li>
+                    <li><a href="#part-five">Contact</a></li>
                 </ul>
         </a>    
     </nav>
 
     <!-- main content -->
-
-    <!-- <main class="wrapper"> -->
     <div class="container-fluid">
+
         <!-- home section -->
         <section class="nameplate" id="part-one">
             <h1>LINDSAY 
@@ -43,44 +43,70 @@
         </section>
         
         <!-- about me -->
-        <section class="its-always-about-me" id="part-two">
+        <section class="me" id="part-two">
             <h3>ABOUT</h3>
-            <div class="me">
-                <section id="about_me">
-                    <h5>Hello there, I'm Lindsay.</h5>
-                    <h5>
-                        I am but a humble neophyte to web development, however I have an insatiable appetite for knowledge.
-                    </h5>
-                </section>
+            <div>
+                <h5>Hello there, I'm Lindsay.</h5>
+                <h5>
+                    I am but a humble neophyte to web development, however I have an insatiable appetite for knowledge.
+                </h5>
             </div>
+            <hr class="solid">
+        </section>
+
+        <!-- contact section-->
+        <section id="part-three">
+            <h3>EDUCATION</h3>
+            <h5>
+                Harpeth Hall Alumna 2012
+            </h5>
+            <h5>
+                Middle Tennessee State University 2012-2013
+            </h5>
+            <h5>
+                The Salon Professional Academy Graduate 2016
+            </h5>
             <hr class="solid">
         </section>
         
 
 
         <!-- my grind -->
-        <section id="part-three">
+        <section id="part-four">
             <h3>MY ENDEAVORS</h3>
             <div class="work">
-                <section id="my-grind">
-                    <a href="https://baelindsay.github.io/Generator-of-Password/" target="_blank" class="gallery-one">
-                        <h3>Generator of Passwords</h3>
-                    </a>
-                    <a href="https://baelindsay.github.io/Weather-Dashboard/" target="_blank" class="gallery-two">
-                        <h3>Weather Dashboard</h3>
-                    </a>
-                    <a href="https://cmash93.github.io/Randamu/" target="_blank" class="gallery-three">
-                        <h3>Randamu</h3>
-                    </a>
-                </section>
+                <a href="https://baelindsay.github.io/Generator-of-Password/" target="_blank" class="gallery-one">
+                    <h4>Generator of Passwords</h4>
+                </a>
+                <a href="https://baelindsay.github.io/Weather-Dashboard/" target="_blank" class="gallery-two">
+                    <h4>Weather Dashboard</h4>
+                </a>
+                <a href="https://cmash93.github.io/Randamu/" target="_blank" class="gallery-three">
+                    <h4>Randamu</h4> 
+                </a>
             </div>
             <hr class="solid">
         </section>
         
 
         <!-- contact section-->
-        <section id="part-four">
+        <section id="part-five">
             <h3>CONTACT</h3>
+            <div class="container">
+                    <form action="action_page.php">
+        
+                        <label class="text-label">Name</label>
+                            <input type="text" id="name" name="name" placeholder="">
+                    
+                        <label class="text-label">E-mail</label>
+                            <input type="text" id="email" name="email" placeholder="">
+                    
+                    
+                        <input type="submit" value="Submit">
+                
+                    </form>
+            </div>
+            <hr class="solid">
         </section>
 
     </div>
