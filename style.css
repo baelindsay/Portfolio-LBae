@@ -177,7 +177,7 @@ hr.solid {
     outline: .3rem solid #4b9b69;
     grid-column: 1/ 6;
     grid-row: 1 / 4;
-    background-image: url(./images/generator-of-passwords.gif);
+    background-image:;
     background-size: cover;
 }
 
